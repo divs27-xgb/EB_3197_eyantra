@@ -29,15 +29,17 @@ print(h)
 There is also an `asyncio` version of the client. Normal `asyncio` principles apply, and all methods are async:
 
 ```python
-from coppeliasim_zmqremoteapi_client.asyncio import *
+from coppeliasim_zmqremoteapi_client import *
 
 client = RemoteAPIClient()
+
 
 async def main():
     async with RemoteAPIClient() as client:
         sim = await client.require('sim')
         h = await sim.getObject('/Floor')
         print(h)
+
 
 asyncio.run(main())
 ```

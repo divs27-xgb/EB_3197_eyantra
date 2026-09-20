@@ -7,7 +7,7 @@
 import asyncio
 import sys
 
-from coppeliasim_zmqremoteapi_client.asyncio import RemoteAPIClient
+from coppeliasim_zmqremoteapi_client import RemoteAPIClient
 
 
 async def mainFunc():
