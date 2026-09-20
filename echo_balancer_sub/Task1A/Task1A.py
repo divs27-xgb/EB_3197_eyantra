@@ -15,7 +15,7 @@
 *****************************************************************************************
 '''
 
-# Team ID:          [EB_3197]
+# Team ID:          [eYRC#3197]
 # Author List:      [ Priyansh Singh Rathore, Devesh Dev ]
 # Filename:         Task1A.py
 # Functions:        find_equilibrium_points, find_A_B_matrices,
