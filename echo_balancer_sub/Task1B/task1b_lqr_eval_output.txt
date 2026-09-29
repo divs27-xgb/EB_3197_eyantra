@@ -1,0 +1,21 @@
+Task 1B - LQR evaluation
+  team id           : 3197
+  platform          : Windows
+  conda environment : EB_3197
+  date and time     : 26-09-2026 20:04:06
+  states            : [tilt_dot, tilt, yaw_dot, yaw]
+  A                 : [0 85.6 0 0; 1 0 0 0; 0 0 0 0; 0 0 1 0]
+  B                 : [-2.618; 0; 1; 0]
+  Q                 : [0.04 0 0 0; 0 2554 0 0; 0 0 1.5 0; 0 0 0 1754]
+  R                 : [0.2]
+  sampled at        : dt = 0.01 s (zoh), solved with control.dlqr
+  controllability   : rank 4 of 4, uncontrollable modes: none
+  K                 : [-25.0566 -250.213 -32.3111 -78.0752]
+  motor sign        : +1
+  closed-loop |z|   : 0.8679, 0.8679, 0.9606, 0.9606
+  balanced          : 20.00 s of 20.00 s   (within 10 deg tilt, 30 deg arm)
+  error (RMS)       : tilt 1.27 deg, arm 1.45 deg
+  error (peak)      : tilt 3.88 deg, arm 4.02 deg
+  stability score   : time 1.000 x 0.7 + precision 0.912 x 0.3
+  note              : completed the full 20 s
+  MARKS             : 29.21 out of 30

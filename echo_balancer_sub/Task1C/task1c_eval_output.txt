@@ -1,0 +1,12 @@
+Task 1C evaluation
+  team id           : 3197
+  platform          : Windows
+  conda environment : EB_3197
+  date and time     : 28-09-2026 18:29:57
+  set-points        : tilt -1.57 rad, arm 1.57 rad
+  balanced          : 20.00 s of 20.00 s   (within 10 deg tilt, 30 deg arm)
+  error (RMS)       : tilt 0.27 deg, arm 0.27 deg
+  error (peak)      : tilt 0.45 deg, arm 0.54 deg
+  stability score   : time 1.000 x 0.7 + precision 0.982 x 0.3
+  note              : completed the full 20 s
+  MARKS             : 39.78 out of 40
