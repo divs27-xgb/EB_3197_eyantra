@@ -1,0 +1,14 @@
+Task 2A - PID evaluation
+  team id           : 3197
+  platform          : Windows
+  conda environment : EB_3197
+  date and time     : 12-10-2026 16:45:01
+  gains             : Kp = 42, Ki = 0, Kd = 9.935  (tilt)
+                      Kp = 5.8, Ki = 0, Kd = 15.6  (yaw)
+  motor sign        : -1
+  balanced          : 30.00 s of 30.00 s   (within 10 deg tilt, 30 deg arm)
+  error (RMS)       : tilt 0.02 deg, arm 0.05 deg
+  error (peak)      : tilt 0.60 deg, arm 0.44 deg
+  stability score   : time 1.000 x 0.7 + precision 0.998 x 0.3
+  note              : completed the full 30 s
+  MARKS             : 29.98 out of 30

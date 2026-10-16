@@ -1,0 +1,6 @@
+# IDE and Python-generated files
+.idea/
+__pycache__/
+*.py[cod]
+.venv/
+venv/

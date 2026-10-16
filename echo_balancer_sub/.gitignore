@@ -2,3 +2,9 @@
 Task1B/tuning_Gains
 *.mp4
 
+
+# Local-only Task 2A downloads, captures, and working notes
+Task2A/reference/official/
+Task2A/local_data/
+Task2A/private_notes/
+
