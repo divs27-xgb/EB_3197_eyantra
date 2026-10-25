@@ -1,6 +1,6 @@
 # Task 2A — Echo Balancer bike
 
-Task 2A balances the bike bot with PID and LQR. PID and LQR submission artifacts are under [`submissions/`](submissions/).
+Task 2A balances the bike bot with PID and LQR. The submitted portal package and encrypted submission outputs are intentionally excluded from this public repository.
 
 ## Contents
 
@@ -9,7 +9,7 @@ Task 2A balances the bike bot with PID and LQR. PID and LQR submission artifacts
 - [`scripts/capture_lqr_telemetry.py`](scripts/capture_lqr_telemetry.py): passive CoppeliaSim telemetry logger; it reads values and does not command the bike.
 - `scripts/inspect_*.py`: read-only CoppeliaSim scene and joint inspectors.
 - `results/`: recorded controller settings and evaluator output.
-- `submissions/`: preserved submitted ZIP and output files.
+- Official portal submission files are kept out of the repository so they cannot be reused as submission artifacts.
 
 The model candidate stabilized the bike immediately in the LQR Tuner with default `Q=I`, `R=1`. Record a full evaluator-duration run separately before treating that as the final validation result.
 
