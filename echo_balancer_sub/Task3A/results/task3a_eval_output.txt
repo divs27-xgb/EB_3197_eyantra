@@ -1,0 +1,14 @@
+Task 3A evaluation
+  team id           : 3197
+  platform          : Windows
+  conda environment : EB_3197
+  date and time     : 12-11-2026 22:44:11
+  limits            : timeout 720 s, tilt 10 deg RMS, 1 marks per collision, a fall scores 0
+  finish            : reached at t = 15.82 s
+  time parameter    : 24.45 out of 25
+  tilt parameter    : 4.66 out of 5 (RMS tilt 0.69 deg, precision 0.931)
+  collisions        : 0
+  max tilt          : 2.67 deg
+  scripts           : f735597f726d39fe20373dfb9485080df56e75d1c7e7c234c7f531ca309fd258
+  note              : reached the finish
+  MARKS             : 29.11 out of 30
